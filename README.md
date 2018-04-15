@@ -4,9 +4,9 @@ When given an XML input file, this program will accurately validate if opening/c
 
 When valid, the program will output "Valid" and a table of each tag used in the XML file with its frequency. The program will output "Not Valid", when it detects a tag mismatch, an unclosed tag or an unopened closing tag. 
 
-## Examples
+## Example 1
 
-###Input 
+### Input 
 ```XML
 <book id="bk101">
       <author>Laakmann McDowell, Gayle</author>
@@ -37,6 +37,7 @@ price: 2
 publish_date: 2
 description: 2
 ```
+## Example 2
 
 ### Input
 ```XML
